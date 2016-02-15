@@ -335,6 +335,18 @@ footer p {
 	width: 100%;
 	}
 
+/*portfolio details begin*/
+	article img {
+		width:300px; 
+		height:270px;
+	}
+
+.category_frame {
+	width: 280px;
+	margin-top:80px;
+}
+/*	Portfolio query ends*/
+
 	#profile_pic {
 		height:250px;
 		width: 330px;
@@ -361,7 +373,6 @@ footer p {
 		margin:0;
 		text-align: center;
 		}
-
 
 	nav {
 		background-color: #ffffff;
