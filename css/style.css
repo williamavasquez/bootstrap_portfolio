@@ -429,6 +429,11 @@ nav li a:hover {
 
 	aside {
 		width: 600px;
-		margin: 0 20px;
+		margin: 20px 20px;
 	}
+
+	footer {
+	width: 683px;;
+	}
+
 }
