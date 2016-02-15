@@ -297,6 +297,17 @@ footer p {
 		float: left;
 		width: 420px;
 	}
+/*portfolio details begin*/
+	article img {
+		width:360px; 
+		height:270px;
+	}
+
+.category_frame {
+	width: 340px;
+	margin-top:80px;
+}
+/*	Portfolio query ends*/
 
 	#profile_pic {
 		width: 360px;
