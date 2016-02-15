@@ -323,12 +323,10 @@ footer p {
 /* Begining of Media Query - max width 768px */
 
 @media screen and (max-width: 768px) {
-	header{
-		width: 760px;
-	}
+
 	.container {
-		width: 100%;
 		margin: 0px;
+		width: 100%;
 	}
 
 	#main {
@@ -369,16 +367,16 @@ footer p {
 
 @media screen and (max-width: 640px) {
 	h1	{
-		width: 640px;
 		margin:0;
 		text-align: center;
+		width:100%;
 		}
 
 	nav {
 		background-color: #ffffff;
-		width: 640px;
 		margin:0px;
 		float:left;
+		width: 683px;
 	}
 
 	nav li {
@@ -402,7 +400,7 @@ nav li a:hover {
 
  	#main {
 		width:600px;
-		margin: 20px 20px;
+		margin: 30px;
 		}
 
 /*portfolio details begin*/
