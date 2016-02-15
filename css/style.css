@@ -27,8 +27,8 @@ header {
 
 .container {
 	width: 960px;
-	margin-right: auto;
-	margin-left:auto;
+	margin-right:auto;
+	margin-left: auto;
 }
 
 h1 {
@@ -45,15 +45,15 @@ h1 {
 }
 
 nav	{
+	margin: 50px 0px 0px 0px;
 	float: right;
-	margin: 50px 0px 0px 300px;
 }
 
 nav li {
-	list-style: none;
 	float: left;
-	padding: 0px 20px 10px 20px;
 	display: inline-block;
+	list-style: none;
+	padding: 0px 20px 10px 20px;
 }
 
 nav li a:hover {
@@ -80,9 +80,9 @@ nav	li a {
 	padding: 20px;
 	margin-bottom: 30px;
 	background-color: #ffffff;
-	width: 604px;
 	border: solid #dddddd;
 	float: left;
+	width: 604px;
 
 }
 
@@ -96,17 +96,17 @@ h2 {
 }
 
 article {
-	width: 590px;
+	color:#777777;
 	margin-top: 30px;
 	text-align: justify;
-	line-height: 150%;
-	color:#777777;
+	line-height:150%;
 }
 
 #profile_pic {
-	float: left;	
-	margin: 10px  30px 10px 0px;
+	float: left;
 	width: 220px;
+	height: 220px;
+	margin: 10px  30px 10px 0px;
 }
 
 
@@ -183,13 +183,13 @@ article img 	{
 }
 
 aside {
-	float: left;
 	width: 265px;
 	height: 150px;
-	margin-left: 40px;
 	box-sizing: border-box;
 	border:solid #dddddd;
 	background-color: #ffffff;
+	float: left;
+	margin-left: 40px;
 }
 
 h3 {
@@ -295,8 +295,6 @@ footer p {
 	#main {
 		box-sizing: border-box; 
 		float: left;
-		margin-left: auto;
-		margin-right: auto;
 		width: 420px;
 	}
 
@@ -306,13 +304,39 @@ footer p {
 	}
 
 	p {
-		clear: both;
 		width: 360px;
 	}
 }
 /*End of max width 980 Media Query*/
 
-/* Begining of Media Query - max width 980px */
+/* Begining of Media Query - max width 768px */
 
 @media screen and (max-width: 768px) {
+	header{
+		width: 760px;
+	}
+	.container {
+		width: 100%;
+		margin: 0px;
+	}
+
+	#main {
+	width: 100%;
+	}
+
+	#profile_pic {
+		height:250px;
+		width: 330px;
+
+		}
+	
+	p {
+		width: 652px;
+	}
+
+	aside {
+		width: 100%;
+		margin-left:0;
+	}
+
 }
