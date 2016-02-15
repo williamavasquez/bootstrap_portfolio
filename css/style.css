@@ -405,6 +405,19 @@ nav li a:hover {
 		margin: 20px 20px;
 		}
 
+/*portfolio details begin*/
+	article img {
+		width:530px; 
+		height:400px;
+		margin-left:15px;
+	}
+
+	.category_frame {
+		width: 510px;
+		margin-top:193px;
+		margin-left: 15px;
+	}
+/*	Portfolio query ends*/
 
 	#profile_pic {
 		width: 530px;
